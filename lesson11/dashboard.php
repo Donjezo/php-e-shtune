@@ -51,7 +51,13 @@
 
         <?= "<a href='delete.php?id=$user[id]'>
         Delete
-        </a>"?>
+        </a>
+        
+        |
+        <a href='edit.php?id=$user[id]'>
+        edit
+        </a>
+        "?>
 
 
         </td>
